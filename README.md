@@ -3,20 +3,21 @@
 ### Web
 - 브라우저 렌더링 원리를 설명하세요.
    ![image](https://github.com/user-attachments/assets/01d43587-bd6d-4244-8b5d-c4dd3b0c93a0)
-  - DNS 조회
-   IP주소 찾기
-  - TCP 핸드 셰이크
-  -  
-   - DOM트리와 CSSOM 트리 생성
-   - 렌더
-   - 스타일
-   - 레이아웃
-   - 페인트
-
+  1. DNS 조회: IP주소 찾기
+  2. TCP 핸드 셰이크
+  3. Parsing: 브라우저가 코드를 이해하고 사용할 수 있는 구조로 변환함(HTML, CSS 파싱)
+  4. RenderTree 형성: DOM + CSSOM을 결합해서 렌더 트리 형성
+  5. Lsyout: 렌더 트리에서 계산되지 않은 크기, 위치, 레이어 순서와 같은 정보 계산 후 좌표에 나타냄
+  6. Paint: UI기반의 구성 요소들에게 색을 입히고, 레이어 위치 결정
+  - 요약
+  1. HTML로부터 DOM 트리를, CSS로부터 CSSOM트리를 빌드
+  2. DOM, CSOM을 결합해서 렌더 트리 형성
+  3. 렌더 트리에서 레이아웃을 실행하여 각 노드의 기하학적 형태 계산
+  4. 개별 노드를 화면에 페인트(그리기)
+     
 참고 자료
 - [브라우저 동작원리](https://poiemaweb.com/js-browser)
 - [웹페이지를 표시한다는 것: 브라우저는 어떻게 동작하는가](https://developer.mozilla.org/ko/docs/Web/Performance/How_browsers_work)
-- [브라우저는 어떻게 동작하는가](https://d2.naver.com/helloworld/59361)
 - [프론트엔드 개발자라면 알고 있어야 할 브라우저의 동작 과정](https://yozm.wishket.com/magazine/detail/1338/)
   
 

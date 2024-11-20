@@ -1,7 +1,7 @@
 # interview_questions
 
-### Web
-- 브라우저 렌더링 원리를 설명하세요.
+## Web
+### 브라우저 렌더링 원리를 설명하세요.
    ![image](https://github.com/user-attachments/assets/01d43587-bd6d-4244-8b5d-c4dd3b0c93a0)
   1. DNS 조회: IP주소 찾기
   2. TCP 핸드 셰이크
@@ -20,16 +20,17 @@
 - [브라우저 동작원리](https://poiemaweb.com/js-browser)
 - [웹페이지를 표시한다는 것: 브라우저는 어떻게 동작하는가](https://developer.mozilla.org/ko/docs/Web/Performance/How_browsers_work)
 - [프론트엔드 개발자라면 알고 있어야 할 브라우저의 동작 과정](https://yozm.wishket.com/magazine/detail/1338/)
-  
 
-### Javascript
-- 이벤트 루프에 대해서 알고 있는대로 말해보세요. <br/>
+### reflow와 repaint의 차이점에 대해서 설명해주세요.
+
+## Javascript
+### 이벤트 루프에 대해서 알고 있는대로 말해보세요. <br/>
   자바스크립트는 싱글스레드로 동작해 한 번에 하나의 작업만 처리할 수 있지만, 이벤트 루프를 통해 비동기 작업을 효율적으로 관리합니다.  <br/>
   이벤트 루프의 작동 방식은 코드가 실행되면서 호출 스택에 함수들이 쌓이고 실행되며, 비동기 작업(ex. SetTimeout, HTTP 요청 등)은 Web APIs가 처리합니다.  <br/>
   비동기 작업이 완료되면 해당 콜백은 태스크 큐로 이동하고, 호출 스택이 비면 이벤트 루프가 태스크 큐의 작업을 호출 스택으로 이동시켜 실행합니다.  <br/>
   이러한 방식으로 비동기 작업을 수행해서 자바스크립트가 중단되지 않고 응답성을 유지할 수 있습니다. 
 
-  - Javascript 는 싱글스레드 언어인데 어떻게 비동기 통신이 가능할까요? <br/>
+ ### Javascript 는 싱글스레드 언어인데 어떻게 비동기 통신이 가능할까요? <br/>
    ```
    JavaScript는 싱글스레드 언어이지만 JavaScript 엔진의 멀티스레드 구조와 Web APis를 통해 가능합니다.
    JavaScript자체는 싱글스레드이지만, JavaScript엔진(V8 등)은 멀티스레드로 동작합니다.
@@ -47,6 +48,9 @@
     - JavaScript자체는 싱글스레드지만, JavaScript 엔진과 런타임 환경의 멀티스레드 기능으로 비동기 처리가 가능합니다.
     - 엔진과 환경이 제공하는 멀티스레드 기능을 활용하여 비동기 통신을 구현합니다.
    ```
-### TypeScript
-### React
-### Etc
+### 실행 컨텍스트에 대해서 설명해주세요.
+### 클로저에 대해서 설명해주세요.
+
+## TypeScript
+## React
+## Etc

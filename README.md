@@ -1,7 +1,8 @@
-# interview_questions
-면접에서 자주 물어보는 질문들을 정리해서 공부하고 있어요.
+# Frontend-Interview-Question
 
-## Web
+>  면접에서 자주 물어보는 질문들을 정리해서 공부하고 있어요.
+
+## 👩‍💻 Web
 ### 브라우저 렌더링 원리를 설명하세요.
    ![image](https://github.com/user-attachments/assets/01d43587-bd6d-4244-8b5d-c4dd3b0c93a0)
   1. DNS 조회: IP주소 찾기
@@ -73,6 +74,6 @@ reflow는 레이아웃을 다시 계산하는 과정이고 repaint는 그 계산
 ### 실행 컨텍스트에 대해서 설명해주세요.
 ### 클로저에 대해서 설명해주세요.
 
-## TypeScript
-## React
-## Etc
+## 👩‍💻 TypeScript
+## 👩‍💻 React
+## 👩‍💻 Etc
